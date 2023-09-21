@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+  <SupportAssistPrebootDiagnosticLog>
+    <Schema>1.0.0</Schema>
+    <LogNumber>4</LogNumber>
+    <LogTimeStamp>01/27/2023 03:34:05</LogTimeStamp>
+    <ePSA_Data>
+      <Result>Not Reported</Result>
+      <ReturnCode>BOOT_HOST_OS</ReturnCode>
+      <LogData>
+        <ePSALogTimeStamp>01/27/2023 03:34:02</ePSALogTimeStamp>
+        <ePSAVersion>ED.1.1.0</ePSAVersion>
+        <ErrorCode>2000:0000</ErrorCode>
+        <ValidationCode>89208</ValidationCode>
+        <ErrorMessage><![CDATA[Operating System Loader has no signature. Incompatible with SecureBoot. All bootable devices failed Secure Boot verification.
+]]></ErrorMessage>
+      </LogData>
+      <ePSAInfo><![CDATA[serviceTag=GLFRQF3&errCode=0000&ValCode=89208&fru=_&uID=04502]]></ePSAInfo>
+      <ePSAFullVersion>ED.1.1.0</ePSAFullVersion>
+      <ePSAInvocationCount>5</ePSAInvocationCount>
+    </ePSA_Data>
+    <BIOS_Data>
+      <ErrorCategory>NO_BOOT</ErrorCategory>
+      <Flags>SOS_AVAILABLE, BIOSCONNECT_ENABLED</Flags>
+      <SOS_Available>TRUE</SOS_Available>
+      <TimeOutSeconds>0</TimeOutSeconds>
+    </BIOS_Data>
+  </SupportAssistPrebootDiagnosticLog>
