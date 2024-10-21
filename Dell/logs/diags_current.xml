@@ -1,27 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
   <SupportAssistPrebootDiagnosticLog>
     <Schema>1.0.0</Schema>
-    <LogNumber>3</LogNumber>
-    <LogTimeStamp>01/04/2024 15:32:24</LogTimeStamp>
+    <LogNumber>2</LogNumber>
+    <LogTimeStamp>06/11/2024 13:49:43</LogTimeStamp>
     <ePSA_Data>
       <Result>Not Reported</Result>
       <ReturnCode>BOOT_HOST_OS</ReturnCode>
-      <LogData>
-        <ePSALogTimeStamp>01/04/2024 15:32:20</ePSALogTimeStamp>
-        <ePSAVersion>ED.1.1.0</ePSAVersion>
-        <ErrorCode>2000:0000</ErrorCode>
-        <ValidationCode>102472</ValidationCode>
-        <ErrorMessage><![CDATA[No bootable devices found.
-]]></ErrorMessage>
-      </LogData>
-      <ePSAInfo><![CDATA[serviceTag=GLFRQF3&errCode=0000&ValCode=102472&fru=_&uID=0D209]]></ePSAInfo>
-      <ePSAFullVersion>ED.1.1.0</ePSAFullVersion>
-      <ePSAInvocationCount>4</ePSAInvocationCount>
+      <ePSAFullVersion>ED.1.1.6</ePSAFullVersion>
+      <ePSAInvocationCount>1</ePSAInvocationCount>
     </ePSA_Data>
     <BIOS_Data>
-      <ErrorCategory>NO_BOOT</ErrorCategory>
-      <Flags>SOS_AVAILABLE, BIOSCONNECT_ENABLED</Flags>
-      <SOS_Available>TRUE</SOS_Available>
+      <ErrorCategory>BATTERY</ErrorCategory>
+      <ErrorMessage><![CDATA[WARNING: Battery is low.]]></ErrorMessage>
+      <FRU_String><![CDATA[Unknown Battery]]></FRU_String>
+      <SOS_Available>FALSE</SOS_Available>
       <TimeOutSeconds>0</TimeOutSeconds>
     </BIOS_Data>
   </SupportAssistPrebootDiagnosticLog>

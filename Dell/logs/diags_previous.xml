@@ -1,27 +1,30 @@
 <?xml version="1.0" encoding="UTF-8"?>
   <SupportAssistPrebootDiagnosticLog>
     <Schema>1.0.0</Schema>
-    <LogNumber>2</LogNumber>
-    <LogTimeStamp>01/04/2024 15:28:23</LogTimeStamp>
+    <LogNumber>1</LogNumber>
+    <LogTimeStamp>05/06/2024 00:44:29</LogTimeStamp>
     <ePSA_Data>
       <Result>Not Reported</Result>
-      <ReturnCode>BOOT_HOST_OS</ReturnCode>
+      <ReturnCode>BOOT_DIAGS</ReturnCode>
+      <DevicesTested>User Selected</DevicesTested>
       <LogData>
-        <ePSALogTimeStamp>01/04/2024 15:28:16</ePSALogTimeStamp>
-        <ePSAVersion>ED.1.1.0</ePSAVersion>
-        <ErrorCode>2000:0000</ErrorCode>
-        <ValidationCode>102472</ValidationCode>
-        <ErrorMessage><![CDATA[Operating System Loader has no signature. Incompatible with SecureBoot. All bootable devices failed Secure Boot verification.
-]]></ErrorMessage>
+        <ePSALogTimeStamp>05/06/2024 00:41:31</ePSALogTimeStamp>
+        <ePSAVersion>ED.1.1.6</ePSAVersion>
+        <ErrorCode>2000:8138</ErrorCode>
+        <ValidationCode>88384</ValidationCode>
+        <ErrorMessage><![CDATA[Charger - The AC power adapter wattage and type cannot be determined. The battery may not charge.]]></ErrorMessage>
       </LogData>
-      <ePSAInfo><![CDATA[serviceTag=GLFRQF3&errCode=0000&ValCode=102472&fru=_&uID=0D209]]></ePSAInfo>
-      <ePSAFullVersion>ED.1.1.0</ePSAFullVersion>
-      <ePSAInvocationCount>3</ePSAInvocationCount>
+      <ePSAInfo><![CDATA[serviceTag=GLFRQF3&errCode=8138&ValCode=88384&fru=_&fruInfo=Charger&uID=05168]]></ePSAInfo>
+      <ePSAFullVersion>ED.1.1.6</ePSAFullVersion>
+      <ePSAInvocationCount>2</ePSAInvocationCount>
     </ePSA_Data>
     <BIOS_Data>
-      <ErrorCategory>NO_BOOT</ErrorCategory>
-      <Flags>SOS_AVAILABLE, BIOSCONNECT_ENABLED</Flags>
-      <SOS_Available>TRUE</SOS_Available>
+      <ErrorCategory>POWER_SUPPLY</ErrorCategory>
+      <ErrorMessage><![CDATA[Alert! The AC power adapter wattage and type cannot be determined. The battery 
+may not charge. The system will adjust the performance to match the power 
+available.]]></ErrorMessage>
+      <Flags>DISABLE_IN_SETUP</Flags>
+      <SOS_Available>FALSE</SOS_Available>
       <TimeOutSeconds>0</TimeOutSeconds>
     </BIOS_Data>
   </SupportAssistPrebootDiagnosticLog>
