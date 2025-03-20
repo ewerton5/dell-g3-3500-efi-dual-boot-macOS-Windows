@@ -1,29 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
   <SupportAssistPrebootDiagnosticLog>
     <Schema>1.0.0</Schema>
-    <LogNumber>1</LogNumber>
-    <LogTimeStamp>05/06/2024 00:44:29</LogTimeStamp>
+    <LogNumber>3</LogNumber>
+    <LogTimeStamp>01/12/2025 22:54:45</LogTimeStamp>
     <ePSA_Data>
       <Result>Not Reported</Result>
-      <ReturnCode>BOOT_DIAGS</ReturnCode>
-      <DevicesTested>User Selected</DevicesTested>
-      <LogData>
-        <ePSALogTimeStamp>05/06/2024 00:41:31</ePSALogTimeStamp>
-        <ePSAVersion>ED.1.1.6</ePSAVersion>
-        <ErrorCode>2000:8138</ErrorCode>
-        <ValidationCode>88384</ValidationCode>
-        <ErrorMessage><![CDATA[Charger - The AC power adapter wattage and type cannot be determined. The battery may not charge.]]></ErrorMessage>
-      </LogData>
-      <ePSAInfo><![CDATA[serviceTag=GLFRQF3&errCode=8138&ValCode=88384&fru=_&fruInfo=Charger&uID=05168]]></ePSAInfo>
+      <ReturnCode>BOOT_HOST_OS</ReturnCode>
       <ePSAFullVersion>ED.1.1.6</ePSAFullVersion>
-      <ePSAInvocationCount>2</ePSAInvocationCount>
+      <ePSAInvocationCount>1</ePSAInvocationCount>
     </ePSA_Data>
     <BIOS_Data>
-      <ErrorCategory>POWER_SUPPLY</ErrorCategory>
-      <ErrorMessage><![CDATA[Alert! The AC power adapter wattage and type cannot be determined. The battery 
-may not charge. The system will adjust the performance to match the power 
-available.]]></ErrorMessage>
-      <Flags>DISABLE_IN_SETUP</Flags>
+      <ErrorCategory>TPM_FAIL</ErrorCategory>
+      <ErrorMessage><![CDATA[Alert! TPM device is not detected.]]></ErrorMessage>
       <SOS_Available>FALSE</SOS_Available>
       <TimeOutSeconds>0</TimeOutSeconds>
     </BIOS_Data>

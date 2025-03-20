@@ -1,18 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
   <SupportAssistPrebootDiagnosticLog>
     <Schema>1.0.0</Schema>
-    <LogNumber>2</LogNumber>
-    <LogTimeStamp>06/11/2024 13:49:43</LogTimeStamp>
+    <LogNumber>4</LogNumber>
+    <LogTimeStamp>03/16/2025 01:47:52</LogTimeStamp>
     <ePSA_Data>
       <Result>Not Reported</Result>
       <ReturnCode>BOOT_HOST_OS</ReturnCode>
       <ePSAFullVersion>ED.1.1.6</ePSAFullVersion>
-      <ePSAInvocationCount>1</ePSAInvocationCount>
+      <ePSAInvocationCount>2</ePSAInvocationCount>
     </ePSA_Data>
     <BIOS_Data>
-      <ErrorCategory>BATTERY</ErrorCategory>
-      <ErrorMessage><![CDATA[WARNING: Battery is low.]]></ErrorMessage>
-      <FRU_String><![CDATA[Unknown Battery]]></FRU_String>
+      <ErrorCategory>TPM_FAIL</ErrorCategory>
+      <ErrorMessage><![CDATA[Alert! TPM device is not detected.]]></ErrorMessage>
       <SOS_Available>FALSE</SOS_Available>
       <TimeOutSeconds>0</TimeOutSeconds>
     </BIOS_Data>
